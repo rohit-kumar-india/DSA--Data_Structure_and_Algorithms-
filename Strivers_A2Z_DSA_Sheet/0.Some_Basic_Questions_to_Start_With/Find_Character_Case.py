@@ -1,4 +1,4 @@
-/*  #C++
+'''  #Python
 CF Link: https://www.codingninjas.com/studio/problems/find-character-case_58513?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 
 Problem statement: Write a program that takes a character as input and prints 1, 0, or -1 according to the following rules.
@@ -45,23 +45,12 @@ The input character is not an alphabet, so our answer is -1.
 
 Constraints :
 The input can be any single character.
-*/
+'''
 
-
-
-#include<iostream>
-using namespace std;
-
-int main() {
-	
-	char c;
-	cin >> c;
-
-	if(int(c)>=65 && int(c)<=90)
-		cout << 1;
-	else if(int(c)>=97 && int(c)<=122)
-		cout << 0;
-	else
-		cout << -1;
-	
-}
+ch = input()
+if(ord(ch)>=65 and ord(ch)<=90):
+    print(1)
+elif(ord(ch)>=97 and ord(ch)<=122):
+    print(0)
+else:
+    print(-1)
