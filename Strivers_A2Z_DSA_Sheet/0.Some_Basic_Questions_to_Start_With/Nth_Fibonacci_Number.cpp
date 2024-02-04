@@ -40,7 +40,7 @@ Where ‘n’ represents the number for which we have to find its equivalent Fib
 Time Limit: 1 second
 */
 
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 
 int NthFibonacci(int n){
